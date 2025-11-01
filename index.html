@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explora los Encantadores Personajes de Sanrio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo-container">
+            <img src="mi logo.png" alt="Logo LSS" class="logo">
+        </div>
+        <h1>Personajes de Sanrio</h1>
+        <p>¡Conoce a tus amigos favoritos de Sanrio!</p>
+    </header>
+
+    <div class="imagenes-container">
+        <!-- Tus 5 divs .imagen con sus img y span.nombre -->
+        <!-- Asegúrate de tener el data-name en cada img -->
+        <div class="imagen">
+            <img src="img/cinamo.webp" alt="..." data-name="Cinnamoroll">
+            <span class="nombre"><span class="text">Cinnamoroll</span></span>
+        </div>
+        <div class="imagen">
+            <img src="img/helou.webp" alt="..." data-name="Hello Kitty">
+            <span class="nombre"><span class="text">Hello Kitty</span></span>
+        </div>
+        <div class="imagen">
+            <img src="img/kulo.webp" alt="..." data-name="Kuromi">
+            <span class="nombre"><span class="text">Kuromi</span></span>
+        </div>
+        <div class="imagen">
+            <img src="img/my melo.webp" alt="..." data-name="My Melody">
+            <span class="nombre"><span class="text">My Melody</span></span>
+        </div>
+        <div class="imagen">
+            <img src="img/pon.webp" alt="..." data-name="Pompompurin">
+            <span class="nombre"><span class="text">Pompompurin</span></span>
+        </div>
+    </div>
+
+    <!-- Esta es la nueva sección que SÍ necesitamos en el HTML -->
+    <section class="seleccionados-container">
+        <h2>Personajes Seleccionados</h2>
+        <ul id="lista-seleccionados">
+            <!-- Aquí se añadirán los personajes con JavaScript -->
+            <li class="placeholder-item">¡Haz clic en un personaje para añadirlo!</li>
+        </ul>
+    </section>
+
+    <footer class="main-footer">
+        <p>&copy; 2023 Sanrio Fans. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Asegúrate de que esta línea esté al final del body -->
+    <script src="main.js"></script>
+</body>
+</html>
